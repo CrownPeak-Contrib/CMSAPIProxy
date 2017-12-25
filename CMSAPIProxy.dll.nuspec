@@ -2,13 +2,16 @@
 <package >
   <metadata>
     <id>CrownPeak.CMSAPIProxy</id>
-    <version>1.1.0.6335</version>
+    <version>$version$</version>
     <authors>CrownPeak</authors>
-    <owners>CrownPeak</owners>
+    <owners>CPContrib</owners>
     <licenseUrl>http://developer.crownpeak.com/License</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>CrownPeak CMSAPIProxy library</description>
     <copyright>Copyright 2014</copyright>
     <tags>CrownPeak CMSAPI CMSAPIProxy</tags>
   </metadata>
+  <files>
+    <file src="lib\*" target="lib" />
+  </files>
 </package>
