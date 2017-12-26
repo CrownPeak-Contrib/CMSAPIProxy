@@ -26,11 +26,17 @@ artifacts:
   name: NugetPackage
 
 deploy:
-- provider: GitHub
-  branch: master
-  tag: v$(APPVEYOR_BUILD_VERSION)
-  release: v$(APPVEYOR_BUILD_VERSION)
-  auth_token:
-    secure: NhX2xhluf3GdOH+EsocfZ7kbE0+Emne1oPjvLD8Rd5NR6OnYrAPVxooLmmeAp7OI
+- provider: NuGet
+  server: https://nuget.cp-contrib.com/nuget
+  api_key:
+    secure: LbwCr4TeKXhDGdhQRVgiWWO9no/gGUHDidyOd7nsLeqGRReq1pdqPbw4m9vvceom
   artifact: NugetPackage
-  draft: true
+
+#- provider: GitHub
+#  branch: master
+#  tag: v$(APPVEYOR_BUILD_VERSION)
+#  release: v$(APPVEYOR_BUILD_VERSION)
+#  auth_token:
+#    secure: NhX2xhluf3GdOH+EsocfZ7kbE0+Emne1oPjvLD8Rd5NR6OnYrAPVxooLmmeAp7OI
+#  artifact: NugetPackage
+#  draft: true
