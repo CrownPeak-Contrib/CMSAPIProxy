@@ -1,0 +1,41 @@
+version: 1.0.{build}
+
+pull_requests:
+  do_not_increment_build_number: true
+
+shallow_clone: true
+
+only_commits:
+  files:
+    - lib/
+
+build_script:
+- ps: >-
+    $v = (Get-ChildItem lib\CMSAPIProxy.dll).VersionInfo.ProductVersion
+
+    Set-AppveyorBuildVariable -Name APPVEYOR_BUILD_VERSION -Value $v
+
+
+    Write-Host "CrownPeak.CMSAPIProxy version=$v"
+
+
+    nuget pack CMSAPIProxy.dll.nuspec -properties version=$v -OutputDirectory Build
+
+artifacts:
+- path: Build/*.nupkg
+  name: NugetPackage
+
+deploy:
+- provider: NuGet
+  server: nuget.cp-contrib.com
+  api_key:
+    secure: vhKnhwbtGH0NRNIlVnuPcQ==
+  artifact: NugetPackage
+- provider: GitHub
+  tag: v$(APPVEYOR_BUILD_VERSION)
+  release: v$(APPVEYOR_BUILD_VERSION)
+  auth_token:
+    secure: NhX2xhluf3GdOH+EsocfZ7kbE0+Emne1oPjvLD8Rd5NR6OnYrAPVxooLmmeAp7OI
+  repository: cpcontrib/CMSAPIProxy
+  artifact: NugetPackage
+  draft: true
