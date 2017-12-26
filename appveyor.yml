@@ -27,11 +27,13 @@ artifacts:
 
 deploy:
 - provider: NuGet
+  branch: master
   server: nuget.cp-contrib.com
   api_key:
     secure: vhKnhwbtGH0NRNIlVnuPcQ==
   artifact: NugetPackage
 - provider: GitHub
+  branch: master
   tag: v$(APPVEYOR_BUILD_VERSION)
   release: v$(APPVEYOR_BUILD_VERSION)
   auth_token:
