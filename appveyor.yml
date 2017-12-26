@@ -32,6 +32,6 @@ deploy:
   release: v$(APPVEYOR_BUILD_VERSION)
   auth_token:
     secure: NhX2xhluf3GdOH+EsocfZ7kbE0+Emne1oPjvLD8Rd5NR6OnYrAPVxooLmmeAp7OI
-  repository: cpcontrib/CMSAPIProxy
+  repository: cpcontrib/cmsapiproxy
   artifact: NugetPackage
   draft: true
