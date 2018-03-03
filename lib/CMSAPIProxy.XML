@@ -2715,7 +2715,7 @@
             </summary>
             <returns>List of Workflow objects</returns>
         </member>
-        <member name="M:CrownPeak.CMSAPI.Asset.SaveSource(System.String)">
+        <member name="M:CrownPeak.CMSAPI.Asset.SaveSource(System.String,System.Boolean)">
             <summary>
             Updates the source of a template or library file. This will automatically trigger the template or library code to compile if necessary.
             </summary>
@@ -5830,6 +5830,13 @@
         <member name="P:CrownPeak.CMSAPI.CLConfig.ComponentLibraryMaxLayoutColumns">
             <summary>
             max layout columns
+            </summary>
+        </member>
+        <member name="P:CrownPeak.CMSAPI.CLConfig.ComponentLibraryTemplatesFolder">
+            <summary>
+            The default folder that template definitions will use to generate the new templates.  
+            Can be overriden in the template defintion with the 
+            "template_folder" field on a per defintion basis.
             </summary>
         </member>
         <member name="T:CrownPeak.CMSAPI.ComponentBase">
@@ -13525,6 +13532,23 @@
             <example>
             <code lang="C#"><![CDATA[
             bool isChanged = ServicesTMF.IsMasterAssetChanges(asset, sitePath);
+            ]]></code>
+            </example>
+        </member>
+        <member name="T:CrownPeak.CMSAPI.Services.ServicesTMF.PostInput">
+            <summary>
+            PostInput implementation for TMF
+            </summary>
+        </member>
+        <member name="M:CrownPeak.CMSAPI.Services.ServicesTMF.PostInput.LoadPostInput(CrownPeak.CMSAPI.Asset,CrownPeak.CMSAPI.PostInputContext)">
+            <summary>
+            Added to post input template file in order to enable TMF
+            </summary>
+            <param name="asset">Current Asset</param>
+            <param name="postInputContext">Current context</param>
+            <example>
+            <code lang="C#"><![CDATA[
+            ServicesTMF.PostInput.LoadPostInput(asset, postInputContext);
             ]]></code>
             </example>
         </member>
