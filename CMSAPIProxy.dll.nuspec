@@ -10,8 +10,13 @@
     <description>CrownPeak CMSAPIProxy library</description>
     <copyright>Copyright 2014</copyright>
     <tags>CrownPeak CMSAPI CMSAPIProxy</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.7.1">
+		<!--<dependency name="log4net" />-->
+	  </group>
+    </dependencies>
   </metadata>
   <files>
-    <file src="lib\*" target="lib" />
+    <file src="lib\CMSAPIProxy*" target="lib/net471" />
   </files>
 </package>
