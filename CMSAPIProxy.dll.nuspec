@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
-<package >
+<package>
   <metadata>
     <id>CrownPeak.CMSAPIProxy</id>
-    <version>$version$</version>
+    <version>1.1.1</version>
     <authors>CrownPeak</authors>
     <owners>CPContrib</owners>
     <licenseUrl>http://developer.crownpeak.com/License</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>CrownPeak CMSAPIProxy library</description>
-    <copyright>Copyright 2014</copyright>
+    <description>CrownPeak CMSAPIProxy library, last modified date of 2020-07-02</description>
+    <copyright>Copyright 2020</copyright>
     <tags>CrownPeak CMSAPI CMSAPIProxy</tags>
     <dependencies>
       <group targetFramework=".NETFramework4.7.1">

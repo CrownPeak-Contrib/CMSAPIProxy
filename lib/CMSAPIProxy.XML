@@ -844,7 +844,7 @@
               </code>
             </example>
         </member>
-        <member name="M:CrownPeak.CMSAPI.Asset.GetPanels(System.String,CrownPeak.CMSAPI.SortOrder)">
+        <member name="M:CrownPeak.CMSAPI.Asset.GetPanels(System.String,CrownPeak.CMSAPI.SortOrder,System.String,System.Boolean)">
             <summary>
               <para>Get panels based on list name from data already saved into the asset.</para>
               <para>
@@ -856,6 +856,8 @@
             </summary>
             <param name="panelName">Name of the field on which to create the list</param>
             <param name="sort">Optional: sort order, default is null. If null, the list will be in the order it was saved.</param>
+            <param name="inputFormPostfix">Optional: postfix for controls in form selector forms.</param>
+            <param name="inputFormSkipData">Optional: this prevents data incorrectly retrieved for new list panels in form selector forms.</param>
             <returns>The requested list of PanelEntries</returns>
             <example>
               <code><![CDATA[
@@ -10376,12 +10378,13 @@
             ]]></code>
             </example>
         </member>
-        <member name="M:CrownPeak.CMSAPI.PanelEntry.GetPanels(System.String,CrownPeak.CMSAPI.SortOrder)">
+        <member name="M:CrownPeak.CMSAPI.PanelEntry.GetPanels(System.String,CrownPeak.CMSAPI.SortOrder,System.String)">
             <summary>
               Creates a sublist from the current list.
             </summary>
             <param name="name">The name of the panel</param>
             <param name="sort">Optional: Sorts the data before returning.  Does not work if the source is an inputForm</param>
+            <param name="inputFormPostfix">Optional: postfix for controls in form selector forms.</param>
             <returns>List of PanelEntry objects containing panels.</returns>
             <example>
               <code lang="C#"> 

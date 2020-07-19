@@ -98,16 +98,16 @@
         {
           "ruleId": "CS0649",
           "level": "warning",
-          "message": "Field 'PanelInfo.List' is never assigned to, and will always have its default value null",
+          "message": "Field 'PanelInfo.Index' is never assigned to, and will always have its default value 0",
           "locations": [
             {
               "resultFile": {
                 "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/Context.cs",
                 "region": {
-                  "startLine": 2441,
-                  "startColumn": 31,
-                  "endLine": 2441,
-                  "endColumn": 35
+                  "startLine": 2512,
+                  "startColumn": 18,
+                  "endLine": 2512,
+                  "endColumn": 23
                 }
               }
             }
@@ -119,16 +119,58 @@
         {
           "ruleId": "CS0649",
           "level": "warning",
-          "message": "Field 'PanelInfo.Index' is never assigned to, and will always have its default value 0",
+          "message": "Field 'PanelInfo.Min' is never assigned to, and will always have its default value ",
           "locations": [
             {
               "resultFile": {
                 "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/Context.cs",
                 "region": {
-                  "startLine": 2440,
-                  "startColumn": 18,
-                  "endLine": 2440,
-                  "endColumn": 23
+                  "startLine": 2515,
+                  "startColumn": 19,
+                  "endLine": 2515,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS0649",
+          "level": "warning",
+          "message": "Field 'PanelInfo.Name' is never assigned to, and will always have its default value null",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/Context.cs",
+                "region": {
+                  "startLine": 2516,
+                  "startColumn": 21,
+                  "endLine": 2516,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS0649",
+          "level": "warning",
+          "message": "Field 'PanelInfo.List' is never assigned to, and will always have its default value null",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/Context.cs",
+                "region": {
+                  "startLine": 2513,
+                  "startColumn": 31,
+                  "endLine": 2513,
+                  "endColumn": 35
                 }
               }
             }
@@ -167,9 +209,9 @@
               "resultFile": {
                 "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/Asset.cs",
                 "region": {
-                  "startLine": 2533,
+                  "startLine": 2548,
                   "startColumn": 32,
-                  "endLine": 2533,
+                  "endLine": 2548,
                   "endColumn": 38
                 }
               }
@@ -182,79 +224,16 @@
         {
           "ruleId": "CS0649",
           "level": "warning",
-          "message": "Field 'PanelInfo.Name' is never assigned to, and will always have its default value null",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/Context.cs",
-                "region": {
-                  "startLine": 2444,
-                  "startColumn": 21,
-                  "endLine": 2444,
-                  "endColumn": 25
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 4
-          }
-        },
-        {
-          "ruleId": "CS0649",
-          "level": "warning",
-          "message": "Field 'Asset._workflowId' is never assigned to, and will always have its default value ",
+          "message": "Field 'Asset._deployId' is never assigned to, and will always have its default value ",
           "locations": [
             {
               "resultFile": {
                 "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/Asset.cs",
                 "region": {
-                  "startLine": 2529,
+                  "startLine": 2550,
                   "startColumn": 32,
-                  "endLine": 2529,
-                  "endColumn": 43
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 4
-          }
-        },
-        {
-          "ruleId": "CS0649",
-          "level": "warning",
-          "message": "Field 'Context.aspSessionVariables' is never assigned to, and will always have its default value null",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/Context.cs",
-                "region": {
-                  "startLine": 1323,
-                  "startColumn": 41,
-                  "endLine": 1323,
-                  "endColumn": 60
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 4
-          }
-        },
-        {
-          "ruleId": "CS0649",
-          "level": "warning",
-          "message": "Field 'Context.userVariables' is never assigned to, and will always have its default value null",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/Context.cs",
-                "region": {
-                  "startLine": 1321,
-                  "startColumn": 41,
-                  "endLine": 1321,
-                  "endColumn": 54
+                  "endLine": 2550,
+                  "endColumn": 41
                 }
               }
             }
@@ -272,10 +251,52 @@
               "resultFile": {
                 "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/Asset.cs",
                 "region": {
-                  "startLine": 2553,
+                  "startLine": 2568,
                   "startColumn": 32,
-                  "endLine": 2553,
+                  "endLine": 2568,
                   "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS0649",
+          "level": "warning",
+          "message": "Field 'PanelInfo.Max' is never assigned to, and will always have its default value ",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/Context.cs",
+                "region": {
+                  "startLine": 2514,
+                  "startColumn": 19,
+                  "endLine": 2514,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS0649",
+          "level": "warning",
+          "message": "Field 'Context.userVariables' is never assigned to, and will always have its default value null",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/Context.cs",
+                "region": {
+                  "startLine": 1393,
+                  "startColumn": 41,
+                  "endLine": 1393,
+                  "endColumn": 54
                 }
               }
             }
@@ -293,52 +314,10 @@
               "resultFile": {
                 "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/Context.cs",
                 "region": {
-                  "startLine": 1322,
+                  "startLine": 1394,
                   "startColumn": 41,
-                  "endLine": 1322,
+                  "endLine": 1394,
                   "endColumn": 53
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 4
-          }
-        },
-        {
-          "ruleId": "CS0649",
-          "level": "warning",
-          "message": "Field 'Asset._storageId' is never assigned to, and will always have its default value ",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/Asset.cs",
-                "region": {
-                  "startLine": 2539,
-                  "startColumn": 32,
-                  "endLine": 2539,
-                  "endColumn": 42
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 4
-          }
-        },
-        {
-          "ruleId": "CS0649",
-          "level": "warning",
-          "message": "Field 'PanelInfo.Min' is never assigned to, and will always have its default value ",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/Context.cs",
-                "region": {
-                  "startLine": 2443,
-                  "startColumn": 19,
-                  "endLine": 2443,
-                  "endColumn": 22
                 }
               }
             }
@@ -356,9 +335,9 @@
               "resultFile": {
                 "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/Asset.cs",
                 "region": {
-                  "startLine": 2541,
+                  "startLine": 2556,
                   "startColumn": 37,
-                  "endLine": 2541,
+                  "endLine": 2556,
                   "endColumn": 48
                 }
               }
@@ -377,52 +356,10 @@
               "resultFile": {
                 "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/Asset.cs",
                 "region": {
-                  "startLine": 2531,
+                  "startLine": 2546,
                   "startColumn": 32,
-                  "endLine": 2531,
+                  "endLine": 2546,
                   "endColumn": 45
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 4
-          }
-        },
-        {
-          "ruleId": "CS0649",
-          "level": "warning",
-          "message": "Field 'PanelInfo.Max' is never assigned to, and will always have its default value ",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/Context.cs",
-                "region": {
-                  "startLine": 2442,
-                  "startColumn": 19,
-                  "endLine": 2442,
-                  "endColumn": 22
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 4
-          }
-        },
-        {
-          "ruleId": "CS0649",
-          "level": "warning",
-          "message": "Field 'Asset._deployId' is never assigned to, and will always have its default value ",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/Asset.cs",
-                "region": {
-                  "startLine": 2535,
-                  "startColumn": 32,
-                  "endLine": 2535,
-                  "endColumn": 41
                 }
               }
             }
@@ -440,9 +377,72 @@
               "resultFile": {
                 "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/Asset.cs",
                 "region": {
-                  "startLine": 2537,
+                  "startLine": 2552,
                   "startColumn": 32,
-                  "endLine": 2537,
+                  "endLine": 2552,
+                  "endColumn": 42
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS0649",
+          "level": "warning",
+          "message": "Field 'Asset._workflowId' is never assigned to, and will always have its default value ",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/Asset.cs",
+                "region": {
+                  "startLine": 2544,
+                  "startColumn": 32,
+                  "endLine": 2544,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS0649",
+          "level": "warning",
+          "message": "Field 'Context.aspSessionVariables' is never assigned to, and will always have its default value null",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/Context.cs",
+                "region": {
+                  "startLine": 1395,
+                  "startColumn": 41,
+                  "endLine": 1395,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS0649",
+          "level": "warning",
+          "message": "Field 'Asset._storageId' is never assigned to, and will always have its default value ",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/Asset.cs",
+                "region": {
+                  "startLine": 2554,
+                  "startColumn": 32,
+                  "endLine": 2554,
                   "endColumn": 42
                 }
               }
@@ -629,9 +629,9 @@
               "resultFile": {
                 "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/Asset.cs",
                 "region": {
-                  "startLine": 2562,
+                  "startLine": 2577,
                   "startColumn": 32,
-                  "endLine": 2562,
+                  "endLine": 2577,
                   "endColumn": 43
                 }
               }
@@ -734,9 +734,9 @@
               "resultFile": {
                 "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/Context.cs",
                 "region": {
-                  "startLine": 2651,
+                  "startLine": 2723,
                   "startColumn": 16,
-                  "endLine": 2651,
+                  "endLine": 2723,
                   "endColumn": 29
                 }
               }
@@ -755,9 +755,9 @@
               "resultFile": {
                 "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/Context.cs",
                 "region": {
-                  "startLine": 2655,
+                  "startLine": 2727,
                   "startColumn": 12,
-                  "endLine": 2655,
+                  "endLine": 2727,
                   "endColumn": 25
                 }
               }
@@ -4538,9 +4538,9 @@
               "resultFile": {
                 "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/supportingClasses/PanelEntry.cs",
                 "region": {
-                  "startLine": 187,
+                  "startLine": 195,
                   "startColumn": 31,
-                  "endLine": 187,
+                  "endLine": 195,
                   "endColumn": 47
                 }
               }
@@ -19130,620 +19130,6 @@
           }
         },
         {
-          "ruleId": "S1541",
-          "level": "warning",
-          "message": "The Cyclomatic Complexity of this method is 23 which is greater than 10 authorized.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
-                "region": {
-                  "startLine": 941,
-                  "startColumn": 46,
-                  "endLine": 941,
-                  "endColumn": 66
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
-                "region": {
-                  "startLine": 941,
-                  "startColumn": 46,
-                  "endLine": 941,
-                  "endColumn": 66
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
-                "region": {
-                  "startLine": 952,
-                  "startColumn": 7,
-                  "endLine": 952,
-                  "endColumn": 9
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
-                "region": {
-                  "startLine": 957,
-                  "startColumn": 7,
-                  "endLine": 957,
-                  "endColumn": 9
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
-                "region": {
-                  "startLine": 959,
-                  "startColumn": 9,
-                  "endLine": 959,
-                  "endColumn": 11
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
-                "region": {
-                  "startLine": 966,
-                  "startColumn": 9,
-                  "endLine": 966,
-                  "endColumn": 11
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
-                "region": {
-                  "startLine": 972,
-                  "startColumn": 7,
-                  "endLine": 972,
-                  "endColumn": 9
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
-                "region": {
-                  "startLine": 976,
-                  "startColumn": 9,
-                  "endLine": 976,
-                  "endColumn": 16
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
-                "region": {
-                  "startLine": 982,
-                  "startColumn": 11,
-                  "endLine": 982,
-                  "endColumn": 13
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
-                "region": {
-                  "startLine": 984,
-                  "startColumn": 13,
-                  "endLine": 984,
-                  "endColumn": 15
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
-                "region": {
-                  "startLine": 990,
-                  "startColumn": 11,
-                  "endLine": 990,
-                  "endColumn": 13
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
-                "region": {
-                  "startLine": 992,
-                  "startColumn": 13,
-                  "endLine": 992,
-                  "endColumn": 15
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
-                "region": {
-                  "startLine": 998,
-                  "startColumn": 11,
-                  "endLine": 998,
-                  "endColumn": 13
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
-                "region": {
-                  "startLine": 999,
-                  "startColumn": 84,
-                  "endLine": 999,
-                  "endColumn": 86
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
-                "region": {
-                  "startLine": 998,
-                  "startColumn": 78,
-                  "endLine": 998,
-                  "endColumn": 80
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
-                "region": {
-                  "startLine": 1005,
-                  "startColumn": 11,
-                  "endLine": 1005,
-                  "endColumn": 13
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
-                "region": {
-                  "startLine": 1012,
-                  "startColumn": 13,
-                  "endLine": 1012,
-                  "endColumn": 15
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
-                "region": {
-                  "startLine": 1017,
-                  "startColumn": 13,
-                  "endLine": 1017,
-                  "endColumn": 15
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
-                "region": {
-                  "startLine": 1019,
-                  "startColumn": 15,
-                  "endLine": 1019,
-                  "endColumn": 17
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
-                "region": {
-                  "startLine": 1026,
-                  "startColumn": 15,
-                  "endLine": 1026,
-                  "endColumn": 17
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
-                "region": {
-                  "startLine": 1033,
-                  "startColumn": 11,
-                  "endLine": 1033,
-                  "endColumn": 13
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
-                "region": {
-                  "startLine": 1035,
-                  "startColumn": 13,
-                  "endLine": 1035,
-                  "endColumn": 15
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
-                "region": {
-                  "startLine": 1043,
-                  "startColumn": 9,
-                  "endLine": 1043,
-                  "endColumn": 11
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
-                "region": {
-                  "startLine": 1049,
-                  "startColumn": 11,
-                  "endLine": 1049,
-                  "endColumn": 18
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1,
-            "customProperties": {
-              "0": "+1",
-              "1": "+1",
-              "10": "+1",
-              "11": "+1",
-              "12": "+1",
-              "13": "+1",
-              "14": "+1",
-              "15": "+1",
-              "16": "+1",
-              "17": "+1",
-              "18": "+1",
-              "19": "+1",
-              "2": "+1",
-              "20": "+1",
-              "21": "+1",
-              "22": "+1",
-              "3": "+1",
-              "4": "+1",
-              "5": "+1",
-              "6": "+1",
-              "7": "+1",
-              "8": "+1",
-              "9": "+1"
-            }
-          }
-        },
-        {
-          "ruleId": "S3776",
-          "level": "warning",
-          "message": "Refactor this method to reduce its Cognitive Complexity from 63 to the 15 allowed.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
-                "region": {
-                  "startLine": 941,
-                  "startColumn": 46,
-                  "endLine": 941,
-                  "endColumn": 66
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
-                "region": {
-                  "startLine": 952,
-                  "startColumn": 7,
-                  "endLine": 952,
-                  "endColumn": 9
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
-                "region": {
-                  "startLine": 957,
-                  "startColumn": 7,
-                  "endLine": 957,
-                  "endColumn": 9
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
-                "region": {
-                  "startLine": 959,
-                  "startColumn": 9,
-                  "endLine": 959,
-                  "endColumn": 11
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
-                "region": {
-                  "startLine": 964,
-                  "startColumn": 7,
-                  "endLine": 964,
-                  "endColumn": 11
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
-                "region": {
-                  "startLine": 966,
-                  "startColumn": 9,
-                  "endLine": 966,
-                  "endColumn": 11
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
-                "region": {
-                  "startLine": 972,
-                  "startColumn": 7,
-                  "endLine": 972,
-                  "endColumn": 9
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
-                "region": {
-                  "startLine": 976,
-                  "startColumn": 9,
-                  "endLine": 976,
-                  "endColumn": 16
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
-                "region": {
-                  "startLine": 982,
-                  "startColumn": 11,
-                  "endLine": 982,
-                  "endColumn": 13
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
-                "region": {
-                  "startLine": 984,
-                  "startColumn": 13,
-                  "endLine": 984,
-                  "endColumn": 15
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
-                "region": {
-                  "startLine": 990,
-                  "startColumn": 11,
-                  "endLine": 990,
-                  "endColumn": 13
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
-                "region": {
-                  "startLine": 992,
-                  "startColumn": 13,
-                  "endLine": 992,
-                  "endColumn": 15
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
-                "region": {
-                  "startLine": 998,
-                  "startColumn": 11,
-                  "endLine": 998,
-                  "endColumn": 13
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
-                "region": {
-                  "startLine": 998,
-                  "startColumn": 78,
-                  "endLine": 998,
-                  "endColumn": 80
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
-                "region": {
-                  "startLine": 1005,
-                  "startColumn": 11,
-                  "endLine": 1005,
-                  "endColumn": 13
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
-                "region": {
-                  "startLine": 1009,
-                  "startColumn": 11,
-                  "endLine": 1009,
-                  "endColumn": 15
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
-                "region": {
-                  "startLine": 1012,
-                  "startColumn": 13,
-                  "endLine": 1012,
-                  "endColumn": 15
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
-                "region": {
-                  "startLine": 1017,
-                  "startColumn": 13,
-                  "endLine": 1017,
-                  "endColumn": 15
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
-                "region": {
-                  "startLine": 1019,
-                  "startColumn": 15,
-                  "endLine": 1019,
-                  "endColumn": 17
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
-                "region": {
-                  "startLine": 1024,
-                  "startColumn": 13,
-                  "endLine": 1024,
-                  "endColumn": 17
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
-                "region": {
-                  "startLine": 1026,
-                  "startColumn": 15,
-                  "endLine": 1026,
-                  "endColumn": 17
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
-                "region": {
-                  "startLine": 1033,
-                  "startColumn": 11,
-                  "endLine": 1033,
-                  "endColumn": 13
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
-                "region": {
-                  "startLine": 1035,
-                  "startColumn": 13,
-                  "endLine": 1035,
-                  "endColumn": 15
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
-                "region": {
-                  "startLine": 1043,
-                  "startColumn": 9,
-                  "endLine": 1043,
-                  "endColumn": 11
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
-                "region": {
-                  "startLine": 1049,
-                  "startColumn": 11,
-                  "endLine": 1049,
-                  "endColumn": 18
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1,
-            "customProperties": {
-              "0": "+1",
-              "1": "+1",
-              "10": "+4 (incl 3 for nesting)",
-              "11": "+3 (incl 2 for nesting)",
-              "12": "+1",
-              "13": "+3 (incl 2 for nesting)",
-              "14": "+1",
-              "15": "+4 (incl 3 for nesting)",
-              "16": "+4 (incl 3 for nesting)",
-              "17": "+5 (incl 4 for nesting)",
-              "18": "+1",
-              "19": "+5 (incl 4 for nesting)",
-              "2": "+2 (incl 1 for nesting)",
-              "20": "+3 (incl 2 for nesting)",
-              "21": "+4 (incl 3 for nesting)",
-              "22": "+2 (incl 1 for nesting)",
-              "23": "+3 (incl 2 for nesting)",
-              "3": "+1",
-              "4": "+2 (incl 1 for nesting)",
-              "5": "+1",
-              "6": "+2 (incl 1 for nesting)",
-              "7": "+3 (incl 2 for nesting)",
-              "8": "+4 (incl 3 for nesting)",
-              "9": "+3 (incl 2 for nesting)"
-            }
-          }
-        },
-        {
           "ruleId": "S1066",
           "level": "warning",
           "message": "Merge this if statement with the enclosing one.",
@@ -21406,6 +20792,620 @@
               "7": "+2 (incl 1 for nesting)",
               "8": "+3 (incl 2 for nesting)",
               "9": "+4 (incl 3 for nesting)"
+            }
+          }
+        },
+        {
+          "ruleId": "S1541",
+          "level": "warning",
+          "message": "The Cyclomatic Complexity of this method is 23 which is greater than 10 authorized.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
+                "region": {
+                  "startLine": 941,
+                  "startColumn": 46,
+                  "endLine": 941,
+                  "endColumn": 66
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
+                "region": {
+                  "startLine": 941,
+                  "startColumn": 46,
+                  "endLine": 941,
+                  "endColumn": 66
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
+                "region": {
+                  "startLine": 952,
+                  "startColumn": 7,
+                  "endLine": 952,
+                  "endColumn": 9
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
+                "region": {
+                  "startLine": 957,
+                  "startColumn": 7,
+                  "endLine": 957,
+                  "endColumn": 9
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
+                "region": {
+                  "startLine": 959,
+                  "startColumn": 9,
+                  "endLine": 959,
+                  "endColumn": 11
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
+                "region": {
+                  "startLine": 966,
+                  "startColumn": 9,
+                  "endLine": 966,
+                  "endColumn": 11
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
+                "region": {
+                  "startLine": 972,
+                  "startColumn": 7,
+                  "endLine": 972,
+                  "endColumn": 9
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
+                "region": {
+                  "startLine": 976,
+                  "startColumn": 9,
+                  "endLine": 976,
+                  "endColumn": 16
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
+                "region": {
+                  "startLine": 982,
+                  "startColumn": 11,
+                  "endLine": 982,
+                  "endColumn": 13
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
+                "region": {
+                  "startLine": 984,
+                  "startColumn": 13,
+                  "endLine": 984,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
+                "region": {
+                  "startLine": 990,
+                  "startColumn": 11,
+                  "endLine": 990,
+                  "endColumn": 13
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
+                "region": {
+                  "startLine": 992,
+                  "startColumn": 13,
+                  "endLine": 992,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
+                "region": {
+                  "startLine": 998,
+                  "startColumn": 11,
+                  "endLine": 998,
+                  "endColumn": 13
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
+                "region": {
+                  "startLine": 999,
+                  "startColumn": 84,
+                  "endLine": 999,
+                  "endColumn": 86
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
+                "region": {
+                  "startLine": 998,
+                  "startColumn": 78,
+                  "endLine": 998,
+                  "endColumn": 80
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
+                "region": {
+                  "startLine": 1005,
+                  "startColumn": 11,
+                  "endLine": 1005,
+                  "endColumn": 13
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
+                "region": {
+                  "startLine": 1012,
+                  "startColumn": 13,
+                  "endLine": 1012,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
+                "region": {
+                  "startLine": 1017,
+                  "startColumn": 13,
+                  "endLine": 1017,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
+                "region": {
+                  "startLine": 1019,
+                  "startColumn": 15,
+                  "endLine": 1019,
+                  "endColumn": 17
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
+                "region": {
+                  "startLine": 1026,
+                  "startColumn": 15,
+                  "endLine": 1026,
+                  "endColumn": 17
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
+                "region": {
+                  "startLine": 1033,
+                  "startColumn": 11,
+                  "endLine": 1033,
+                  "endColumn": 13
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
+                "region": {
+                  "startLine": 1035,
+                  "startColumn": 13,
+                  "endLine": 1035,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
+                "region": {
+                  "startLine": 1043,
+                  "startColumn": 9,
+                  "endLine": 1043,
+                  "endColumn": 11
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
+                "region": {
+                  "startLine": 1049,
+                  "startColumn": 11,
+                  "endLine": 1049,
+                  "endColumn": 18
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+1",
+              "10": "+1",
+              "11": "+1",
+              "12": "+1",
+              "13": "+1",
+              "14": "+1",
+              "15": "+1",
+              "16": "+1",
+              "17": "+1",
+              "18": "+1",
+              "19": "+1",
+              "2": "+1",
+              "20": "+1",
+              "21": "+1",
+              "22": "+1",
+              "3": "+1",
+              "4": "+1",
+              "5": "+1",
+              "6": "+1",
+              "7": "+1",
+              "8": "+1",
+              "9": "+1"
+            }
+          }
+        },
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 63 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
+                "region": {
+                  "startLine": 941,
+                  "startColumn": 46,
+                  "endLine": 941,
+                  "endColumn": 66
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
+                "region": {
+                  "startLine": 952,
+                  "startColumn": 7,
+                  "endLine": 952,
+                  "endColumn": 9
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
+                "region": {
+                  "startLine": 957,
+                  "startColumn": 7,
+                  "endLine": 957,
+                  "endColumn": 9
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
+                "region": {
+                  "startLine": 959,
+                  "startColumn": 9,
+                  "endLine": 959,
+                  "endColumn": 11
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
+                "region": {
+                  "startLine": 964,
+                  "startColumn": 7,
+                  "endLine": 964,
+                  "endColumn": 11
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
+                "region": {
+                  "startLine": 966,
+                  "startColumn": 9,
+                  "endLine": 966,
+                  "endColumn": 11
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
+                "region": {
+                  "startLine": 972,
+                  "startColumn": 7,
+                  "endLine": 972,
+                  "endColumn": 9
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
+                "region": {
+                  "startLine": 976,
+                  "startColumn": 9,
+                  "endLine": 976,
+                  "endColumn": 16
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
+                "region": {
+                  "startLine": 982,
+                  "startColumn": 11,
+                  "endLine": 982,
+                  "endColumn": 13
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
+                "region": {
+                  "startLine": 984,
+                  "startColumn": 13,
+                  "endLine": 984,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
+                "region": {
+                  "startLine": 990,
+                  "startColumn": 11,
+                  "endLine": 990,
+                  "endColumn": 13
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
+                "region": {
+                  "startLine": 992,
+                  "startColumn": 13,
+                  "endLine": 992,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
+                "region": {
+                  "startLine": 998,
+                  "startColumn": 11,
+                  "endLine": 998,
+                  "endColumn": 13
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
+                "region": {
+                  "startLine": 998,
+                  "startColumn": 78,
+                  "endLine": 998,
+                  "endColumn": 80
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
+                "region": {
+                  "startLine": 1005,
+                  "startColumn": 11,
+                  "endLine": 1005,
+                  "endColumn": 13
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
+                "region": {
+                  "startLine": 1009,
+                  "startColumn": 11,
+                  "endLine": 1009,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
+                "region": {
+                  "startLine": 1012,
+                  "startColumn": 13,
+                  "endLine": 1012,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
+                "region": {
+                  "startLine": 1017,
+                  "startColumn": 13,
+                  "endLine": 1017,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
+                "region": {
+                  "startLine": 1019,
+                  "startColumn": 15,
+                  "endLine": 1019,
+                  "endColumn": 17
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
+                "region": {
+                  "startLine": 1024,
+                  "startColumn": 13,
+                  "endLine": 1024,
+                  "endColumn": 17
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
+                "region": {
+                  "startLine": 1026,
+                  "startColumn": 15,
+                  "endLine": 1026,
+                  "endColumn": 17
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
+                "region": {
+                  "startLine": 1033,
+                  "startColumn": 11,
+                  "endLine": 1033,
+                  "endColumn": 13
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
+                "region": {
+                  "startLine": 1035,
+                  "startColumn": 13,
+                  "endLine": 1035,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
+                "region": {
+                  "startLine": 1043,
+                  "startColumn": 9,
+                  "endLine": 1043,
+                  "endColumn": 11
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSServicesAPI/ServicesLibrary/ServicesTMF.cs",
+                "region": {
+                  "startLine": 1049,
+                  "startColumn": 11,
+                  "endLine": 1049,
+                  "endColumn": 18
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+1",
+              "10": "+4 (incl 3 for nesting)",
+              "11": "+3 (incl 2 for nesting)",
+              "12": "+1",
+              "13": "+3 (incl 2 for nesting)",
+              "14": "+1",
+              "15": "+4 (incl 3 for nesting)",
+              "16": "+4 (incl 3 for nesting)",
+              "17": "+5 (incl 4 for nesting)",
+              "18": "+1",
+              "19": "+5 (incl 4 for nesting)",
+              "2": "+2 (incl 1 for nesting)",
+              "20": "+3 (incl 2 for nesting)",
+              "21": "+4 (incl 3 for nesting)",
+              "22": "+2 (incl 1 for nesting)",
+              "23": "+3 (incl 2 for nesting)",
+              "3": "+1",
+              "4": "+2 (incl 1 for nesting)",
+              "5": "+1",
+              "6": "+2 (incl 1 for nesting)",
+              "7": "+3 (incl 2 for nesting)",
+              "8": "+4 (incl 3 for nesting)",
+              "9": "+3 (incl 2 for nesting)"
             }
           }
         },
@@ -23280,344 +23280,6 @@
           }
         },
         {
-          "ruleId": "S1541",
-          "level": "warning",
-          "message": "The Cyclomatic Complexity of this method is 12 which is greater than 10 authorized.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/supportingClasses/ComponentFramework.cs",
-                "region": {
-                  "startLine": 68,
-                  "startColumn": 17,
-                  "endLine": 68,
-                  "endColumn": 27
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/supportingClasses/ComponentFramework.cs",
-                "region": {
-                  "startLine": 68,
-                  "startColumn": 17,
-                  "endLine": 68,
-                  "endColumn": 27
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/supportingClasses/ComponentFramework.cs",
-                "region": {
-                  "startLine": 72,
-                  "startColumn": 7,
-                  "endLine": 72,
-                  "endColumn": 12
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/supportingClasses/ComponentFramework.cs",
-                "region": {
-                  "startLine": 74,
-                  "startColumn": 9,
-                  "endLine": 74,
-                  "endColumn": 16
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/supportingClasses/ComponentFramework.cs",
-                "region": {
-                  "startLine": 77,
-                  "startColumn": 48,
-                  "endLine": 77,
-                  "endColumn": 49
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/supportingClasses/ComponentFramework.cs",
-                "region": {
-                  "startLine": 78,
-                  "startColumn": 54,
-                  "endLine": 78,
-                  "endColumn": 55
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/supportingClasses/ComponentFramework.cs",
-                "region": {
-                  "startLine": 80,
-                  "startColumn": 52,
-                  "endLine": 80,
-                  "endColumn": 53
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/supportingClasses/ComponentFramework.cs",
-                "region": {
-                  "startLine": 81,
-                  "startColumn": 49,
-                  "endLine": 81,
-                  "endColumn": 50
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/supportingClasses/ComponentFramework.cs",
-                "region": {
-                  "startLine": 86,
-                  "startColumn": 11,
-                  "endLine": 86,
-                  "endColumn": 13
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/supportingClasses/ComponentFramework.cs",
-                "region": {
-                  "startLine": 89,
-                  "startColumn": 13,
-                  "endLine": 89,
-                  "endColumn": 15
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/supportingClasses/ComponentFramework.cs",
-                "region": {
-                  "startLine": 91,
-                  "startColumn": 72,
-                  "endLine": 91,
-                  "endColumn": 73
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/supportingClasses/ComponentFramework.cs",
-                "region": {
-                  "startLine": 99,
-                  "startColumn": 13,
-                  "endLine": 99,
-                  "endColumn": 15
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/supportingClasses/ComponentFramework.cs",
-                "region": {
-                  "startLine": 101,
-                  "startColumn": 72,
-                  "endLine": 101,
-                  "endColumn": 73
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1,
-            "customProperties": {
-              "0": "+1",
-              "1": "+1",
-              "10": "+1",
-              "11": "+1",
-              "2": "+1",
-              "3": "+1",
-              "4": "+1",
-              "5": "+1",
-              "6": "+1",
-              "7": "+1",
-              "8": "+1",
-              "9": "+1"
-            }
-          }
-        },
-        {
-          "ruleId": "S3776",
-          "level": "warning",
-          "message": "Refactor this method to reduce its Cognitive Complexity from 37 to the 15 allowed.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/supportingClasses/ComponentFramework.cs",
-                "region": {
-                  "startLine": 68,
-                  "startColumn": 17,
-                  "endLine": 68,
-                  "endColumn": 27
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/supportingClasses/ComponentFramework.cs",
-                "region": {
-                  "startLine": 72,
-                  "startColumn": 7,
-                  "endLine": 72,
-                  "endColumn": 12
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/supportingClasses/ComponentFramework.cs",
-                "region": {
-                  "startLine": 74,
-                  "startColumn": 9,
-                  "endLine": 74,
-                  "endColumn": 16
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/supportingClasses/ComponentFramework.cs",
-                "region": {
-                  "startLine": 77,
-                  "startColumn": 48,
-                  "endLine": 77,
-                  "endColumn": 49
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/supportingClasses/ComponentFramework.cs",
-                "region": {
-                  "startLine": 78,
-                  "startColumn": 54,
-                  "endLine": 78,
-                  "endColumn": 55
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/supportingClasses/ComponentFramework.cs",
-                "region": {
-                  "startLine": 80,
-                  "startColumn": 52,
-                  "endLine": 80,
-                  "endColumn": 53
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/supportingClasses/ComponentFramework.cs",
-                "region": {
-                  "startLine": 81,
-                  "startColumn": 49,
-                  "endLine": 81,
-                  "endColumn": 50
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/supportingClasses/ComponentFramework.cs",
-                "region": {
-                  "startLine": 86,
-                  "startColumn": 11,
-                  "endLine": 86,
-                  "endColumn": 13
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/supportingClasses/ComponentFramework.cs",
-                "region": {
-                  "startLine": 89,
-                  "startColumn": 13,
-                  "endLine": 89,
-                  "endColumn": 15
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/supportingClasses/ComponentFramework.cs",
-                "region": {
-                  "startLine": 91,
-                  "startColumn": 72,
-                  "endLine": 91,
-                  "endColumn": 73
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/supportingClasses/ComponentFramework.cs",
-                "region": {
-                  "startLine": 97,
-                  "startColumn": 11,
-                  "endLine": 97,
-                  "endColumn": 15
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/supportingClasses/ComponentFramework.cs",
-                "region": {
-                  "startLine": 99,
-                  "startColumn": 13,
-                  "endLine": 99,
-                  "endColumn": 15
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/supportingClasses/ComponentFramework.cs",
-                "region": {
-                  "startLine": 101,
-                  "startColumn": 72,
-                  "endLine": 101,
-                  "endColumn": 73
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1,
-            "customProperties": {
-              "0": "+1",
-              "1": "+2 (incl 1 for nesting)",
-              "10": "+4 (incl 3 for nesting)",
-              "11": "+5 (incl 4 for nesting)",
-              "2": "+3 (incl 2 for nesting)",
-              "3": "+3 (incl 2 for nesting)",
-              "4": "+3 (incl 2 for nesting)",
-              "5": "+3 (incl 2 for nesting)",
-              "6": "+3 (incl 2 for nesting)",
-              "7": "+4 (incl 3 for nesting)",
-              "8": "+5 (incl 4 for nesting)",
-              "9": "+1"
-            }
-          }
-        },
-        {
           "ruleId": "S126",
           "level": "warning",
           "message": "Add the missing 'else' clause.",
@@ -24753,6 +24415,344 @@
           }
         },
         {
+          "ruleId": "S1541",
+          "level": "warning",
+          "message": "The Cyclomatic Complexity of this method is 12 which is greater than 10 authorized.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/supportingClasses/ComponentFramework.cs",
+                "region": {
+                  "startLine": 68,
+                  "startColumn": 17,
+                  "endLine": 68,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/supportingClasses/ComponentFramework.cs",
+                "region": {
+                  "startLine": 68,
+                  "startColumn": 17,
+                  "endLine": 68,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/supportingClasses/ComponentFramework.cs",
+                "region": {
+                  "startLine": 72,
+                  "startColumn": 7,
+                  "endLine": 72,
+                  "endColumn": 12
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/supportingClasses/ComponentFramework.cs",
+                "region": {
+                  "startLine": 74,
+                  "startColumn": 9,
+                  "endLine": 74,
+                  "endColumn": 16
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/supportingClasses/ComponentFramework.cs",
+                "region": {
+                  "startLine": 77,
+                  "startColumn": 48,
+                  "endLine": 77,
+                  "endColumn": 49
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/supportingClasses/ComponentFramework.cs",
+                "region": {
+                  "startLine": 78,
+                  "startColumn": 54,
+                  "endLine": 78,
+                  "endColumn": 55
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/supportingClasses/ComponentFramework.cs",
+                "region": {
+                  "startLine": 80,
+                  "startColumn": 52,
+                  "endLine": 80,
+                  "endColumn": 53
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/supportingClasses/ComponentFramework.cs",
+                "region": {
+                  "startLine": 81,
+                  "startColumn": 49,
+                  "endLine": 81,
+                  "endColumn": 50
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/supportingClasses/ComponentFramework.cs",
+                "region": {
+                  "startLine": 86,
+                  "startColumn": 11,
+                  "endLine": 86,
+                  "endColumn": 13
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/supportingClasses/ComponentFramework.cs",
+                "region": {
+                  "startLine": 89,
+                  "startColumn": 13,
+                  "endLine": 89,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/supportingClasses/ComponentFramework.cs",
+                "region": {
+                  "startLine": 91,
+                  "startColumn": 72,
+                  "endLine": 91,
+                  "endColumn": 73
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/supportingClasses/ComponentFramework.cs",
+                "region": {
+                  "startLine": 99,
+                  "startColumn": 13,
+                  "endLine": 99,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/supportingClasses/ComponentFramework.cs",
+                "region": {
+                  "startLine": 101,
+                  "startColumn": 72,
+                  "endLine": 101,
+                  "endColumn": 73
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+1",
+              "10": "+1",
+              "11": "+1",
+              "2": "+1",
+              "3": "+1",
+              "4": "+1",
+              "5": "+1",
+              "6": "+1",
+              "7": "+1",
+              "8": "+1",
+              "9": "+1"
+            }
+          }
+        },
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 37 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/supportingClasses/ComponentFramework.cs",
+                "region": {
+                  "startLine": 68,
+                  "startColumn": 17,
+                  "endLine": 68,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/supportingClasses/ComponentFramework.cs",
+                "region": {
+                  "startLine": 72,
+                  "startColumn": 7,
+                  "endLine": 72,
+                  "endColumn": 12
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/supportingClasses/ComponentFramework.cs",
+                "region": {
+                  "startLine": 74,
+                  "startColumn": 9,
+                  "endLine": 74,
+                  "endColumn": 16
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/supportingClasses/ComponentFramework.cs",
+                "region": {
+                  "startLine": 77,
+                  "startColumn": 48,
+                  "endLine": 77,
+                  "endColumn": 49
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/supportingClasses/ComponentFramework.cs",
+                "region": {
+                  "startLine": 78,
+                  "startColumn": 54,
+                  "endLine": 78,
+                  "endColumn": 55
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/supportingClasses/ComponentFramework.cs",
+                "region": {
+                  "startLine": 80,
+                  "startColumn": 52,
+                  "endLine": 80,
+                  "endColumn": 53
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/supportingClasses/ComponentFramework.cs",
+                "region": {
+                  "startLine": 81,
+                  "startColumn": 49,
+                  "endLine": 81,
+                  "endColumn": 50
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/supportingClasses/ComponentFramework.cs",
+                "region": {
+                  "startLine": 86,
+                  "startColumn": 11,
+                  "endLine": 86,
+                  "endColumn": 13
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/supportingClasses/ComponentFramework.cs",
+                "region": {
+                  "startLine": 89,
+                  "startColumn": 13,
+                  "endLine": 89,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/supportingClasses/ComponentFramework.cs",
+                "region": {
+                  "startLine": 91,
+                  "startColumn": 72,
+                  "endLine": 91,
+                  "endColumn": 73
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/supportingClasses/ComponentFramework.cs",
+                "region": {
+                  "startLine": 97,
+                  "startColumn": 11,
+                  "endLine": 97,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/supportingClasses/ComponentFramework.cs",
+                "region": {
+                  "startLine": 99,
+                  "startColumn": 13,
+                  "endLine": 99,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/supportingClasses/ComponentFramework.cs",
+                "region": {
+                  "startLine": 101,
+                  "startColumn": 72,
+                  "endLine": 101,
+                  "endColumn": 73
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+2 (incl 1 for nesting)",
+              "10": "+4 (incl 3 for nesting)",
+              "11": "+5 (incl 4 for nesting)",
+              "2": "+3 (incl 2 for nesting)",
+              "3": "+3 (incl 2 for nesting)",
+              "4": "+3 (incl 2 for nesting)",
+              "5": "+3 (incl 2 for nesting)",
+              "6": "+3 (incl 2 for nesting)",
+              "7": "+4 (incl 3 for nesting)",
+              "8": "+5 (incl 4 for nesting)",
+              "9": "+1"
+            }
+          }
+        },
+        {
           "ruleId": "S1226",
           "level": "warning",
           "message": "Introduce a new variable instead of reusing the parameter 'key'.",
@@ -25026,6 +25026,48 @@
           }
         },
         {
+          "ruleId": "S126",
+          "level": "warning",
+          "message": "Add the missing 'else' clause.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/supportingClasses/InputForm.cs",
+                "region": {
+                  "startLine": 904,
+                  "startColumn": 9,
+                  "endLine": 904,
+                  "endColumn": 16
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2692",
+          "level": "warning",
+          "message": "0 is a valid index, but this check ignores it.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/supportingClasses/InputForm.cs",
+                "region": {
+                  "startLine": 901,
+                  "startColumn": 54,
+                  "endLine": 901,
+                  "endColumn": 57
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
           "ruleId": "S1226",
           "level": "warning",
           "message": "Introduce a new variable instead of reusing the parameter 'value'.",
@@ -25206,48 +25248,6 @@
                   "startColumn": 9,
                   "endLine": 90,
                   "endColumn": 12
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S126",
-          "level": "warning",
-          "message": "Add the missing 'else' clause.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/supportingClasses/InputForm.cs",
-                "region": {
-                  "startLine": 904,
-                  "startColumn": 9,
-                  "endLine": 904,
-                  "endColumn": 16
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2692",
-          "level": "warning",
-          "message": "0 is a valid index, but this check ignores it.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/projects/advantage/serverapps/CMSAPI/CMSAPI/supportingClasses/InputForm.cs",
-                "region": {
-                  "startLine": 901,
-                  "startColumn": 54,
-                  "endLine": 901,
-                  "endColumn": 57
                 }
               }
             }
